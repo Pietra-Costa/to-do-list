@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(assets/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+
+img{
+    width: 25px;
+}
+
+.container{
+    background-color: rgb(216, 216, 216);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h1{
+    text-transform: uppercase;
+    color: #004235;
+    margin-bottom: 15px;
+}
+
+.info{
+    width: 450px;
+    display: flex;
+    gap: 10px;
+}
+
+.info input{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+.info button{
+    padding: 0 10px;
+    border: none;
+    background-color: #004235;
+    color: white;
+    font-size: 20px;
+}
+
+ul{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    flex: 1;
+    background-color: azure;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    padding: 5px 5px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
