@@ -77,3 +77,9 @@ li{
     justify-content: space-between;
     margin-bottom: 15px;
 }
+
+.task.done{
+    background-color: #309381;
+    color: white;
+    text-decoration: line-through;
+}
